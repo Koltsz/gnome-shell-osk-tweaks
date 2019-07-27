@@ -1,0 +1,49 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+
+    <schema id="org.gnome.shell.extensions.osk-tweaks"
+        path="/org/gnome/shell/extensions/osk-tweaks/">
+
+        <key name="show" type="b">
+            <default>true</default>
+            <summary>Show the indicator</summary>
+            <description>Show the indicator icon in the status area</description>
+        </key>
+
+        <key name="override-switch" type="b">
+            <default>false</default>
+            <summary>Override the automatic keyboard layout</summary>
+            <description>Override the automatic On-Screen Keyboard layout</description>
+        </key>
+
+        <key name="layout" type="s">
+            <default>'us'</default>
+            <summary>Custom keyboard layout</summary>
+            <description>Custom layout for the On-Screen Keyboard</description>
+        </key>
+
+        <key name="landscape-height" type="i">
+            <default>33</default>
+            <summary>Height of the keyboard box</summary>
+            <description>Height of the box containing the On-Screen Keyboard</description>
+        </key>
+
+        <key name="landscape-width" type="s">
+            <default>'Square (1:1)'</default>
+            <summary>Key aspect ratio</summary>
+            <description>Aspect ratio of the keys of the On-Screen Keyboard</description>
+        </key>
+
+        <key name="portrait-height" type="i">
+            <default>33</default>
+            <summary>Height of the keyboard box</summary>
+            <description>Height of the box containing the On-Screen Keyboard</description>
+        </key>
+
+        <key name="portrait-width" type="s">
+            <default>'Square (1:1)'</default>
+            <summary>Key aspect ratio</summary>
+            <description>Aspect ratio of the keys of the On-Screen Keyboard</description>
+        </key>
+
+    </schema>
+</schemalist>
